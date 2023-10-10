@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Alarm Clock</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Alarm Clock</h1>
+    <button id="addButton" >Add Alarm</button><br><br>
+
+   <div id="alarmDesign" style="display: none;">
+    <input type="time" id="timeInput">
+    <button onclick="setAlarm()">Set Alarm</button>
+   </div>
+  </div>
+  <audio id="alarmSound" src="pranju_audio.wav" preload="auto"></audio>
+  <script src="pro.js"></script>
+</body>
+</html>
